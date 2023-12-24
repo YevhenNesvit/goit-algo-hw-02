@@ -13,3 +13,12 @@ def is_palindrome(input_str):
             return False  # Якщо символи не збігаються, рядок не є паліндромом
     
     return True  # Якщо усі символи збігаються, рядок є паліндромом
+
+# Приклад використання:
+input_true = "A man a plan a canal Panama"
+result = is_palindrome(input_true)
+print(f'Is "{input_true}" a palindrome? {result}')
+
+input_false = "This is not a palindrome"
+result = is_palindrome(input_false)
+print(f'Is "{input_false}" a palindrome? {result}')
